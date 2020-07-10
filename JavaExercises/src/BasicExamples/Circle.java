@@ -20,8 +20,11 @@ public class Circle {
 	public Circle(double radius_input) {
 		if (radius_input < 0) {
 			this.radius = 0;
+			setArea(radius_input);
+			
 		} else {
 			this.radius = radius_input;
+			setArea(radius_input);
 		}
 	}
 
@@ -29,7 +32,7 @@ public class Circle {
 		this.radius = rad;
 	}
 
-	public void setArea(double are) {
+	public void setArea(double radius) {
 		this.area = radius * radius * Math.PI;
 	}
 
