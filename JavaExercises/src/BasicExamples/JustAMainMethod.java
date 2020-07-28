@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JustAMainMethod {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 		System.out.print(
 				"Welcome To Bills! \n What Kind of Burger you Wanna Have? \n 1.Cheese Burger \n 2.Chilli Burger \n 3.Kiwi Burger \n Enter your Choice");
 		Scanner scan = new Scanner(System.in);

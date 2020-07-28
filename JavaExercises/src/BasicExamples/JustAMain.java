@@ -2,8 +2,8 @@ package BasicExamples;
 
 import java.util.Scanner;
 
-public class JustAMain {
-	public static void main(String[] Args) {
+//public class JustAMain {
+	//public static void main(String[] Args) {
 		System.out.print("Enter the Radius");
 		Scanner sc = new Scanner(System.in);
 		double in_Radius = sc.nextDouble();

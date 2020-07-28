@@ -6,9 +6,6 @@ import java.util.Scanner;
 public class HamBurger {
 	String meat;
 	String breadRoll;
-	String lettuce;
-	String tomatos;
-	String carrot;
 	double price = 0;
 	ArrayList<String> Additions = new ArrayList<String>();
 
@@ -27,6 +24,7 @@ public class HamBurger {
 				"Do you want any More Additions? \n 1.Tomatos \\n 2.lettuce \\n 3.Carrot \\n 4.Spinach \n If Not Enter NO");
 		String addTypeAgain = scan.next();
 		selectTheTypes(addTypeAgain);
+		scan.close();
 	}
 
 	public void selectTheTypes(int rollType) {
@@ -114,8 +112,10 @@ public class HamBurger {
 		System.out.print(
 				"Do you want any More Additions? \n 1.Tomatos \\n 2.lettuce \\n 3.Carrot \\n 4.Spinach \n If Not Enter NO");
 		Scanner scan = new Scanner(System.in);
+		
 		String addTypeAgain = scan.next();
 		selectTheTypes(addTypeAgain);
+		scan.close();
 		
 	}
 
